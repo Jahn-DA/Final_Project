@@ -1,0 +1,75 @@
+data:
+  info : '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Data/Raw/pistachio.csv'
+  data 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Data/Cleaned/clean_df.csv'
+  data 1 clean: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Data/Cleaned/data1clean.csv'
+  data 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Data/Cleaned/df_clean2'
+  data 2 clean: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Data/Cleaned/data2clean.csv'
+
+scalers:
+  minmax:
+  dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Scalers/minmaxscaler.pkl'
+  dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Scalers/minmaxscaler2.pkl'
+
+  standard:
+  dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Scalers/standardscaler.pkl'
+  dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Scalers/'
+
+
+encoders:
+  label:
+  dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Encoders/encoder.pkl'
+  dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Encoders/encoder2.pkl'
+
+models:
+  Neural Networks:
+  Dataset 1: 
+  MinMax: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/minmaxneural1.pkl'
+  MinMax Tuned: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/minmaxneuraltuned1.pkl'
+  Standard: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/standardneural1.pkl'
+  Standard Tuned:'/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/standardneuraltuned1.pkl'
+
+  Dataset 2:
+  MinMax: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/minmaxneural2.pkl'
+  MinMax Tuned: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/minmaxneuraltuned2.pkl'
+  Standard: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/standardneural2.pkl'
+  Standard Tuned: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/standardneuraltuned2.pkl'
+
+  KNN:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/knn1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/knn2.pkl'
+
+  Support Vector Machines:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/svm1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/svm2.pkl'
+
+  Decision Tree:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/dt1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/dt2.pkl'
+
+  Random Forest:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/rf.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/rf2.pkl'
+
+  ADA Boost:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/ada1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/ada2.pkl'
+
+  XGBoost:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/xgb.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/xgb2.pkl'
+
+  Logistic Regression:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/lr1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/lr2.pkl'
+
+  Gaussain Naive Bayes:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/gnb1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/gnb2.pkl'
+
+  Gradient Boosting: 
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/gbm1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/gbm2.pkl'
+
+  Gradient Boosting Decision Trees:
+  Dataset 1: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/gbdt1.pkl'
+  Dataset 2: '/Users/jxhn/Desktop/IRONHACK/Week_9/Final_project/Models/gbdt2.pkl'
